@@ -106,7 +106,7 @@ pub fn main() !void {
         print("{d:>2} |", .{a + 1});
         for (0..size) |b| {
             // what formatting is needed here?
-            print("{???} ", .{(a + 1) * (b + 1)});
+            print("{d:>3} ", .{(a + 1) * (b + 1)});
         }
 
         // after each row we use double line feed
